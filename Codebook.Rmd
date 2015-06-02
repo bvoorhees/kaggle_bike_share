@@ -1,0 +1,52 @@
+#CODE BOOK:  
+###originally from: http://www.kaggle.com/c/bike-sharing-demand/data  
+
+The features produced from `01_Import_and_clean.py` in this directory are as below:
+***  
+  
+##Time Variables
+* `datetime` - date variable that has been separated out into `day` , `month` , `year` , `hour` variables  
+* `season`  
+* `spring`  
+* `summer`  
+* `fall`  
+* `winter`  
+* `holiday` - a dummy variable denoting whether the day is considered a holiday  
+* `workingday` - a dummy variable denoting whether the day is neither a weekend nor holiday  
+   
+***  
+  
+##Weather Variables
+  
+* `weather`:
+     + 1-Clear, Few clouds, Partly cloudy, Partly cloudy  
+     + 2-Mist  
+     + 3-Cloudy, Mist  
+     + 4-Broken clouds, Mist  
+     + 5-Few clouds, Mist  
+     + 6-Light Snow, Light Rain  
+     + 7-Thunderstorm + Scattered clouds, Light Rain + Scattered clouds  
+     + 8-Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog    
+     
+* `temp` - temperature in Celsius (converted to farenheit)  
+* `atemp` - "feels like" temperature in Celsius  
+* `humidity` - relative humidity  
+* `windspeed` - wind speed  
+
+##Lag for Weather Variables post-stubs  
+  
+* `_ravg_x` - rolling averages over period x 
+* `_l_x` - lag of x  
+   
+***  
+  
+##Other transformation of variables post-stubs   
+  
+* `_sq` - squared value  
+   
+***  
+  
+##Demand Variables
+* `casual` - number of non-registered user rentals initiated  
+* `registered` - number of registered user rentals initiated  
+* `count` - number of total rentals  

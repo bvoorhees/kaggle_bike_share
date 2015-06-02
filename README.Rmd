@@ -1,0 +1,28 @@
+
+==================================================================
+# D.C. Bike-share Kaggle Competition
+##Bennet Voorhees | bennet.voorhees@gmail.com
+
+**BASED ON DATA From:**  
+http://www.kaggle.com/c/bike-sharing-demand/data   
+  
+##Description  
+This directory contains all of the write-ups, slides, data, and graphs for my General Assembly final project, which was a Kaggle competition to predict hourly bike-share demand in the Capitol Bikeshare region. 
+
+##This directory  includes the following:
+
+- `README.txt` - what you are reading at this very moment in time.  
+
+- `.py` files: each filename describes what is being done with the data, and have comments therein.  
+
+- `Codebook.Rmd` - An explanation of each of the features produced in the `01_Import_and_clean.py` file.  
+
+- slides folder: contains all of slides I used to make presentations in class.  
+
+- raw_data folder: contains all of the raw data used in the project  
+
+- graphs folder: contains all of the graphs produced by `02_Exploratory_Graphs.py` file. 
+
+- submission_files folder: contains all of the CSV files produced by `03_Linear_Regression.py`, `04_Decision_Tree.py`, `05_Random_forest.py`, and `05b_Random_forest_simple_features.py` used to make submissions submitted to kaggle.  
+
+- all other directories: not too important, but contain some other stuff I did to mess around with the data.   
